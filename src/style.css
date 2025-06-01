@@ -1,0 +1,235 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 100%;
+    margin: 40px 100px;
+    padding: 0 20px;
+    flex: 1;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.alert {
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #505050;
+}
+
+.btn-primary {
+    background-color: #28d17c;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #1eb06a;
+}
+
+.btn-post {
+    background-color: #ee7b1c;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-edit {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #218838;
+}
+
+.card-wrap {
+    margin-bottom: 60px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.card-text {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-right: 0;
+    color: #555;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.card-text small {
+    display: block;
+    color: #555;
+    padding-bottom: 8px; 
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0 40px 0;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a.current {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.post-count {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.nav-text {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.nav-menu a {
+    color: #fff;
+}
+
+/* ヘッダー */
+.site-header {
+    background-color: #030303;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* フッター */
+.site-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #030303;
+    color: #fff;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
